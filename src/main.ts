@@ -94,8 +94,8 @@ export async function run(): Promise<void> {
         }
 
         const s3Client = new S3Client({
-            region: 'ru-central1',
-            endpoint: 'https://storage.yandexcloud.net',
+            region: 'kz1',
+            endpoint: 'https://storage.yandexcloud.kz/',
             requestChecksumCalculation: RequestChecksumCalculation.WHEN_REQUIRED,
             responseChecksumValidation: ResponseChecksumValidation.WHEN_REQUIRED
         })
